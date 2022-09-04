@@ -26,10 +26,10 @@ Unique Network SDK is a platform specific application development toolset which 
 
 Our priority in developing the SDK was to provide the front-end and back-end developers for dApps such a tool. A savvy dev would, at this point, rightly conclude that the SDK must then be a Javascript/Typescript library. And that is in fact so, as such a library does exist, but there is a more general approach which provides a unique (pun intended) set of benefits: **a thin client SDK providing a remote procedure call server (RPC) accessible via an API.**
 
-Calls to the blockchain methods (which allow a high-level abstraction to the core blockchain operations at the Substrate level) via the API to the thin-client: 
+Calls to the blockchain methods (which allow a high-level abstraction to the core blockchain operations at the Substrate level) via the API to the thin-client:
 
 - avoid the need to keep track of library versioning and dependencies,
-- are guaranteed to provide the highest availability as the servers are maintained by the core team that is actively developing the blockchain core and 
+- are guaranteed to provide the highest availability as the servers are maintained by the core team that is actively developing the blockchain core and
 - provide a low-maintenance solution.
 
 This approach provides a way to maintain a high level of operational stability and to some extent a way to future-proof current dApp development efforts in a rapidly evolving underlying technology. This is a crucial benefit in the context of an ecosystem in which both the relay chain and parachain have a very fast development cycle with aggressive minor/major update schedule.
@@ -48,11 +48,11 @@ The JavaScript/TypeScript SDK is just the first in the series of platform-specif
 
 ## TL;DR
 
- - An SDK just got published that provides devs with a way to develop dApps and utilities rapidly for the Unique Network blockchains
- - It can be used in three 'flavors':
-   - thin client (REST API)
-   - thick client (REST API)
-   - Javascript/Typescript library
+- An SDK just got published that provides devs with a way to develop dApps and utilities rapidly for the Unique Network blockchains
+- It can be used in three 'flavors':
+  - thin client (REST API)
+  - thick client (REST API)
+  - Javascript/Typescript library
 - SDK Libraries for the following platforms soon to follow:
   - Android
   - iOS
