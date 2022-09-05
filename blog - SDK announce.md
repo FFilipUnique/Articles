@@ -2,9 +2,9 @@
 
 Every developer needs a handy tool for the job to be efficient at building stuff. A well built tool optimized for the task not only speeds up the development but makes it more robust and helps avoid the snags of frequent bugs and unnecessary complexity.
 
-If you're pressed for time jump over to the [TL;DR](#tldr)
-
 Before we dive into the SDK details, a recap of the ways a developer can approach the task of building a dApp on Unique network is in order.
+
+If you're pressed for time jump over to the [TL;DR](#tldr)
 
 ## Substrate-first / Ethereum-first
 
