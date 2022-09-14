@@ -36,9 +36,9 @@ This method of providing a high-level abstraction to the Substrate level core bl
 - is guaranteed to provide the highest availability as the servers are maintained by the core team that is actively developing the blockchain core and
 - provides a low-maintenance solution.
 
-This approach provides a way to maintain a high level of operational stability and to some extent a way to future-proof current dApp development efforts in a rapidly evolving underlying technology. This is a crucial benefit in the context of an ecosystem in which both the relay chain and parachain have a very fast development cycle with aggressive minor/major update schedule.
+This approach also provides a way to maintain a high level of operational stability and to some extent a way to future-proof current dApp development efforts in a rapidly evolving underlying technology. This is a crucial benefit in the context of an ecosystem in which both the relay chain and parachain have a very fast development cycle with aggressive minor/major update schedule.
 
-This solution is not a best fit for all though. Since it involves transfer of data via an established interconnection with a remote server, the issue of data security is a legitimate concern for maximum-security setups considering that signing extrinsics entails sending of sensitive authorization data across the network. For these cases a thick-client (within an isolated network) is the most convenient option. In this setup, the task of maintaining availability and keeping the service up to date is delegated to the maintainers of the thick client. However, the thick client implements a Substrate Client solution and thus does not benefit from the high-level abstraction and thus the convenience that the SDK and the REST API provides.
+This solution is not a best fit-for-all though. Since it involves transfer of data via an established interconnection with a remote server, the issue of data security is a legitimate concern for maximum-security setups considering that signing extrinsics entails sending of sensitive authorization data across the network. For the cases where  the provided default encryption of the session channel is not security enough, a thick-client (within an isolated network) is the most convenient option. In this setup, the task of maintaining availability and keeping the service up to date is delegated to the maintainers of the thick client. However, the thick client implements a Substrate Client solution and thus does not benefit from the high-level abstraction and thus the convenience that the SDK and the REST API provides.
 
 ## What's planned for the nearest future
 
@@ -50,7 +50,7 @@ The JS/TS SDK is just the first in the series of platform-specific SDKs Unique t
 
 ## TL;DR
 
-- An SDK just got published that provides devs with a way to rapidly≥ develop dApps and utilities  for the Unique Network blockchains
+- An SDK just got published that provides devs with a way to rapidly develop dApps and utilities  for the Unique Network blockchains
 - The SDK is a library that uses convenient high-level calls to perform complex operations on the blockchain. It uses a REST API to invoke these calls.
 - The SDK forms a stack of technologies:
   - SDK (a JS/TS Library; uses the Rest API) 
