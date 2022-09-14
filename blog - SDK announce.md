@@ -32,9 +32,9 @@ The SDK uses a REST API to make calls to a publicly accessible node invoking cal
 
 This method of providing a high-level abstraction to the Substrate level core blockchain operations has the following benefits:
 
-- avoid the need to keep track of library versioning and dependencies,
-- are guaranteed to provide the highest availability as the servers are maintained by the core team that is actively developing the blockchain core and
-- provide a low-maintenance solution.
+- avoids the need to keep track of library versioning and dependencies,
+- is guaranteed to provide the highest availability as the servers are maintained by the core team that is actively developing the blockchain core and
+- provides a low-maintenance solution.
 
 This approach provides a way to maintain a high level of operational stability and to some extent a way to future-proof current dApp development efforts in a rapidly evolving underlying technology. This is a crucial benefit in the context of an ecosystem in which both the relay chain and parachain have a very fast development cycle with aggressive minor/major update schedule.
 
