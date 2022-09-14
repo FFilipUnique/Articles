@@ -28,7 +28,7 @@ Unique Network SDK is a platform specific application development toolset which 
 
 The priority in developing the SDK was to provide such a tool for most abundant developer base. Hence, it is built as a Javascript/Typescript (JS/TS) library.
 
-The SDK uses a REST API to make calls to a publicly accessible node invoking calls that access methods that operate directly on the blockchain. In other words, it operates as a thin client.
+The SDK uses a REST API to make calls to a publicly accessible node invoking calls that access methods that operate directly on the blockchain. In other words, it operates via a thin client.
 
 This method of providing a high-level abstraction to the Substrate level core blockchain operations has the following benefits:
 
