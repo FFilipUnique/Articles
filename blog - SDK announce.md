@@ -64,4 +64,4 @@ The JS/TS SDK is just the first in the series of platform-specific SDKs Unique t
 ## Links to dev tools
 
 - [SDK Documentation](https://docs.unique.network/sdk)
-- [Swagger](https://rest.quartz.uniquenetwork.dev/swagger)
+- [Swagger](https://rest.unique.network/quartz/swagger)
